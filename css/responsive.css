@@ -1,0 +1,383 @@
+
+@media only screen and (max-width: 390px){
+    .best_servi_items {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 991px){
+    .toggleicon{
+        position: relative;
+        z-index: 9;
+        display: grid;
+        row-gap: 8px;
+        cursor: pointer;
+    }
+    .toggleicon span:nth-child(1){
+        background-color: black;
+        height: 3px;
+        width: 40px;
+        display: block;
+        transition: 0.3s ease-in;
+    }
+    .toggleicon span:nth-child(2){
+        background-color: black;
+        height: 3px;
+        width: 33px;
+        display: block;
+        margin-left: 7px;
+        transition: 0.3s ease-in;
+    }
+    .toggleicon span:nth-child(3){
+        background-color: black;
+        height: 3px;
+        width: 40px;
+        display: block;
+        transition: 0.3s ease-in;
+    }
+    .togglecross span:nth-child(1) {
+        transform: rotate(45deg);
+        position: absolute;
+        top: 0;
+    }
+    .togglecross span:nth-child(2) {
+        transform: translateX(35px);
+        opacity: 0;
+    }
+    .togglecross span:nth-child(3) {
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 0;
+    }
+
+
+    .navs{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 0;
+        height: 100vh;
+        display: block;
+        place-items: center;
+        border-radius: 0;
+        opacity: 0;
+        transition: all 0.3s ease;
+        z-index: -1;
+        visibility: hidden;
+    }
+    .navs ul{
+        text-align: center;
+        line-height: 40px;
+        display: block;
+    }
+    .navs_open{
+        display: grid;
+        opacity: 1;
+        z-index: 1;
+        visibility: visible;
+    }
+
+    .nav_button{
+        display: none;
+    }
+    .mobile_contact{
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .hero {
+        height: auto;
+    }
+    .hero_cnt {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .hero_cnt h1 {
+        font-size: 45px;
+    }
+    .hero_cnt h1 span {
+        font-size: 25px;
+    }
+    .hero_cnt p {
+        font-size: 15px;
+    }
+    .hero_bg_main{
+        position: inherit;
+        padding-left: 2rem;
+    }
+    .hero_bg_main img{
+        width: 100%;
+    }
+
+
+    .index_cnt{
+        margin-top: 5rem;
+    }
+
+    .experience_item_main{
+        display: block;
+    }
+    .exp_item{
+        margin: 1.5rem;
+        position: relative;
+    }
+    .exp_item::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        top: auto;
+        margin-left: auto;
+        left: 0;
+    }
+    .experience_item_main p{
+        margin-bottom: 1rem;
+    }
+    .experience_item_main::before {
+        content: "";
+        position: absolute;
+        background-color: var(--secondery-color);
+        height: 100%;
+        width: 100%;
+        border-radius: 100px;
+        z-index: -1;
+        transform: rotate(2deg);
+        left: 0;
+        top: 0;
+    }
+
+
+    .highlight_bg {
+        padding: 4rem 1rem;
+        padding-bottom: 1rem;
+    }
+    .highlight_item{
+        margin-bottom: 3rem;
+    }
+    .best_serv_main h2 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .best_servi_items {
+        width: 44%;
+        margin: 11px;
+        padding: 5px;
+    }
+    .service_list_items p{
+        font-size: 16px;
+    }
+    .best_servi_item_main {
+        padding: 2rem 0rem;
+    }
+    .best_servi_item_img img {
+        border-radius: 20px 20px 0px 0px;
+    }
+    .book_now h2{
+        font-size: 30px;
+    }
+    .book_now button{
+        padding: 1rem;
+        font-size: 24px;
+    }
+    .book_now button span img{
+        height: 24px;
+    }
+
+    .ftr_logo{
+        margin-bottom: 2rem;
+    }
+    .servi_direction{
+        flex-direction: column-reverse;
+    }
+    .testimonial_bg {
+        padding: 0rem 0rem;
+    }
+
+    /* ============================================== */
+    .about_img img{
+        border-radius: 45px;
+        /* margin: 10px; */
+        padding: 16px;
+        height: 365px;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .about_cnt h1 {
+        /* margin-top: 2rem; */
+        font-size: 60px;
+    }
+
+
+    .contact_main_head {
+        padding: 3rem 1rem;
+    }
+    .contact_main_head h1 {
+        font-size: 60px;
+    }
+    .contact_img img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .get_touch_head h4{
+        font-size: 33px;
+    }
+    .get_touch_head p{
+        font-size: 20px;
+    }
+
+    /* =============================== */
+
+    .sub_banner {
+        height: 200px;
+        padding: 5rem 1rem;
+    }
+    .sub_banner h1 {
+        font-size: 40px;
+    }
+    .service_cnt h5{
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    .inner_book {
+        margin: 3rem 0rem;
+    }
+    .services_main_inner h1 {
+        font-size: 30px;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    .hero_bg_main img{
+        width: 100%;
+        right: 0px;
+        position: relative;
+    }
+}
+@media screen and (max-width:425px) {
+    .testimonial_bg h2 {
+        font-size: 34px;
+    }
+}
+@media only screen and (max-width: 991px){
+
+    /* ============ About Us ========================== */
+    .margin_hero.aboutus{
+        margin-top: -2.5rem;
+    }
+    .servi_direction{
+        flex-direction: column-reverse;
+    }
+    .about_main {
+        margin-top: 4rem;
+    }
+
+    .vision_main.copy .row{
+        flex-direction: column-reverse;
+    }
+     /* ============ scroll top ========================== */
+    .hovertop_btn button{
+        padding: 11px 13px;
+    }
+    .hovertop_btn button img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+
+    .hero_cnt {
+        width: 50%;
+    }
+    .hero_cnt h1 span {
+        font-size: 25px;
+    }
+    .hero_bg_main {
+        position: absolute;
+        right: 19px;
+        top: 0;
+        width: 50%;
+        display: grid;
+        height: 100%;
+        align-items: center;
+    }
+    .hero_cnt h1{
+        font-size: 63px;
+    }
+    .best_servi_item_img img {
+        border-radius: 0px 0px 20px 20px;
+    }
+    .best_servi_items {
+        width: 43%;
+        padding: 0.5rem;
+    }
+    .about_img img{
+        height: 340px;
+        object-position: top center;
+    }
+    .vision_img img{
+        height: 290px;
+    }
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .hero_cnt {
+        width: 50%;
+    }
+    .hero_cnt h1 span {
+        font-size: 25px;
+    }
+    .hero_bg_main {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        display: grid;
+        height: 100%;
+        align-items: center;
+    }
+    .hero_cnt h1{
+        font-size: 63px;
+    }
+    .best_servi_items {
+        width: 43%;
+        padding: 0.5rem;
+    }
+    .best_servi_item_img{
+        height: 100%;
+    }
+    .best_servi_item_img img{
+        height: 100%;
+    }
+    .hero_bg_main img{
+        width: 100%;
+        right: 0px;
+        position: relative;
+    }
+    .nav_button button{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .book_now a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .book_now button{
+        width: 70%;
+    }
+}
+
+
+@media (min-height: 850px) and (max-height: 950px){
+    .hero {
+        height: 80vh;
+    }
+}
